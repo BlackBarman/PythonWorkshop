@@ -1,7 +1,4 @@
-name= "Hello akdfh"
-print(name.upper())
-print(name.lower())
-print(name.title())
+from random import randint 
 
-number = input("give me a number:")
-print("you provided:"+ number)
+number= randint(0, 10)
+print(number)
